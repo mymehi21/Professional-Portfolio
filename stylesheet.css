@@ -1,0 +1,89 @@
+ * {
+    box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    
+    .avatar {
+      width: 160px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 20px;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #ddd;
+      padding: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1.2em;
+
+    }
+    nav a {
+      text-decoration: none;
+    }
+    
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 80px;
+      text-align:justify;
+    }
+    
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
+    }
+    .work {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      cursor: pointer;
+    }
+    
+    .work img {
+      width: 200px;
+      margin-bottom: 20px;
+      transition: transform 0.2s;
+    }
+    
+    .work img:first-of-type {
+      transform: scale(1.2);
+    }
+    
+    .work img:hover {
+      transform: scale(1.1);
+    }
+    
+    section .img1{
+      width: 300px;
+      margin-bottom: 50px;
+    }
+    .contact {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      padding: 40px;
+    }
